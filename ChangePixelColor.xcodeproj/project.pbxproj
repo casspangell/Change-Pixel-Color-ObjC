@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		895516B51540AB520003230E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895516B41540AB520003230E /* UIKit.framework */; };
+		895516B71540AB520003230E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895516B61540AB520003230E /* Foundation.framework */; };
+		895516B91540AB520003230E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895516B81540AB520003230E /* CoreGraphics.framework */; };
+		895516BF1540AB520003230E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 895516BD1540AB520003230E /* InfoPlist.strings */; };
+		895516C11540AB520003230E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 895516C01540AB520003230E /* main.m */; };
+		895516C51540AB520003230E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 895516C41540AB520003230E /* AppDelegate.m */; };
+		895516C81540AB520003230E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 895516C71540AB520003230E /* ViewController.m */; };
+		895516CB1540AB520003230E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 895516C91540AB520003230E /* ViewController.xib */; };
+		895516D21540AD350003230E /* frameImageSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = 895516D11540AD350003230E /* frameImageSearch.png */; };
+		895516D41540BEE20003230E /* logodrive.png in Resources */ = {isa = PBXBuildFile; fileRef = 895516D31540BEE20003230E /* logodrive.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		895516B01540AB520003230E /* ChangePixelColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangePixelColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		895516B41540AB520003230E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		895516B61540AB520003230E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		895516B81540AB520003230E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		895516BC1540AB520003230E /* ChangePixelColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChangePixelColor-Info.plist"; sourceTree = "<group>"; };
+		895516BE1540AB520003230E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		895516C01540AB520003230E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		895516C21540AB520003230E /* ChangePixelColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChangePixelColor-Prefix.pch"; sourceTree = "<group>"; };
+		895516C31540AB520003230E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		895516C41540AB520003230E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		895516C61540AB520003230E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		895516C71540AB520003230E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		895516CA1540AB520003230E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		895516D11540AD350003230E /* frameImageSearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frameImageSearch.png; sourceTree = "<group>"; };
+		895516D31540BEE20003230E /* logodrive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logodrive.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		895516AD1540AB520003230E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895516B51540AB520003230E /* UIKit.framework in Frameworks */,
+				895516B71540AB520003230E /* Foundation.framework in Frameworks */,
+				895516B91540AB520003230E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		895516A51540AB520003230E = {
+			isa = PBXGroup;
+			children = (
+				895516BA1540AB520003230E /* ChangePixelColor */,
+				895516B31540AB520003230E /* Frameworks */,
+				895516B11540AB520003230E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		895516B11540AB520003230E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				895516B01540AB520003230E /* ChangePixelColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		895516B31540AB520003230E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				895516B41540AB520003230E /* UIKit.framework */,
+				895516B61540AB520003230E /* Foundation.framework */,
+				895516B81540AB520003230E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		895516BA1540AB520003230E /* ChangePixelColor */ = {
+			isa = PBXGroup;
+			children = (
+				895516D31540BEE20003230E /* logodrive.png */,
+				895516D11540AD350003230E /* frameImageSearch.png */,
+				895516C31540AB520003230E /* AppDelegate.h */,
+				895516C41540AB520003230E /* AppDelegate.m */,
+				895516C61540AB520003230E /* ViewController.h */,
+				895516C71540AB520003230E /* ViewController.m */,
+				895516C91540AB520003230E /* ViewController.xib */,
+				895516BB1540AB520003230E /* Supporting Files */,
+			);
+			path = ChangePixelColor;
+			sourceTree = "<group>";
+		};
+		895516BB1540AB520003230E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				895516BC1540AB520003230E /* ChangePixelColor-Info.plist */,
+				895516BD1540AB520003230E /* InfoPlist.strings */,
+				895516C01540AB520003230E /* main.m */,
+				895516C21540AB520003230E /* ChangePixelColor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		895516AF1540AB520003230E /* ChangePixelColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895516CE1540AB520003230E /* Build configuration list for PBXNativeTarget "ChangePixelColor" */;
+			buildPhases = (
+				895516AC1540AB520003230E /* Sources */,
+				895516AD1540AB520003230E /* Frameworks */,
+				895516AE1540AB520003230E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangePixelColor;
+			productName = ChangePixelColor;
+			productReference = 895516B01540AB520003230E /* ChangePixelColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		895516A71540AB520003230E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 895516AA1540AB520003230E /* Build configuration list for PBXProject "ChangePixelColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 895516A51540AB520003230E;
+			productRefGroup = 895516B11540AB520003230E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				895516AF1540AB520003230E /* ChangePixelColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		895516AE1540AB520003230E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895516BF1540AB520003230E /* InfoPlist.strings in Resources */,
+				895516CB1540AB520003230E /* ViewController.xib in Resources */,
+				895516D21540AD350003230E /* frameImageSearch.png in Resources */,
+				895516D41540BEE20003230E /* logodrive.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		895516AC1540AB520003230E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895516C11540AB520003230E /* main.m in Sources */,
+				895516C51540AB520003230E /* AppDelegate.m in Sources */,
+				895516C81540AB520003230E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		895516BD1540AB520003230E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895516BE1540AB520003230E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		895516C91540AB520003230E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895516CA1540AB520003230E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		895516CC1540AB520003230E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		895516CD1540AB520003230E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		895516CF1540AB520003230E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangePixelColor/ChangePixelColor-Prefix.pch";
+				INFOPLIST_FILE = "ChangePixelColor/ChangePixelColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		895516D01540AB520003230E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangePixelColor/ChangePixelColor-Prefix.pch";
+				INFOPLIST_FILE = "ChangePixelColor/ChangePixelColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		895516AA1540AB520003230E /* Build configuration list for PBXProject "ChangePixelColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895516CC1540AB520003230E /* Debug */,
+				895516CD1540AB520003230E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895516CE1540AB520003230E /* Build configuration list for PBXNativeTarget "ChangePixelColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895516CF1540AB520003230E /* Debug */,
+				895516D01540AB520003230E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 895516A71540AB520003230E /* Project object */;
+}
