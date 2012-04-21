@@ -1,4 +1,4 @@
 Change-Pixel-Color-ObjC
 =======================
 
-Change the pixel color with a hex number
+Change the pixels of a UIImage with a hex color
